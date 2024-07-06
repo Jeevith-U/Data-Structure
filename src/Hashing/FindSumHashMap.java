@@ -7,7 +7,7 @@ public class FindSumHashMap {
     public static void main(String[] args) {
 
         int arr[] = {10, 15, -5, 15, -10};
-        int k = 4;
+        int k = 5;
         int currentSum = 0;
         boolean found = false;
         HashMap<Integer, Integer> map = new HashMap<>();

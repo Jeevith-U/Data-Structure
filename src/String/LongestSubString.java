@@ -33,5 +33,4 @@ public class LongestSubString {
 		}
 		System.out.println(maxSub);
 	}
-	
 }
