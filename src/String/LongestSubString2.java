@@ -33,7 +33,6 @@ public class LongestSubString2 {
 			}
 		}
 		
-		
 		Set<Entry<String, Integer>> set = map.entrySet() ;
 		
 		for(Entry<String, Integer> entry : set) {
