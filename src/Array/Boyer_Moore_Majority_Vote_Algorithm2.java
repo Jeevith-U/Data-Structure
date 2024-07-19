@@ -6,7 +6,7 @@ public class Boyer_Moore_Majority_Vote_Algorithm2 {
 	
 	public static void main(String[] args) {
 		
-		int arr [] = {2, 2, 5, 3, 2} ;
+		int arr [] = {2, 5, 3, 2} ;
 		
 		Arrays.sort(arr);
 		
