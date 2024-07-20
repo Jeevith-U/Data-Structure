@@ -14,12 +14,15 @@ public class SelectionSort {
 		       
 		       for(int j = i+1 ;j < arr.length ; j++){
 
-		           if(arr[select] > arr[j]){
+		           if(arr[select] > arr[j])
 
-		               arr[select] = arr[select] + arr[j] ;
-		               arr[j] = arr[select] - arr[j] ;
-		               arr[select] = arr[select] - arr[j] ;
-		           }
+		              select = j ;
+		       }
+		       
+		       if(select != i) {
+		    	   int temp = arr[select] ;
+		    	   arr[select] = arr[i] ;
+		    	   arr[i] = temp ;
 		       }
 		   }
 		System.out.println(Arrays.toString(arr));

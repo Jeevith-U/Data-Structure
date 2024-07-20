@@ -16,6 +16,7 @@ public class StockBuyAndSell1 {
 	}
 
 	private static int calculateProfit(int[] stocks) {
+		
 		int profit = 0 ;
 		
 		int feature [] = new int [stocks.length] ;
@@ -27,7 +28,7 @@ public class StockBuyAndSell1 {
 			feature[i] = Math.max(feature[i+1], stocks[i])  ;
 		}
 		
-		System.out.println(Arrays.toString(feature));
+//		System.out.println(Arrays.toString(feature));
 		
 		for (int i = 0; i < feature.length; i++) {
 			

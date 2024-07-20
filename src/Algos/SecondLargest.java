@@ -4,7 +4,7 @@ public class SecondLargest {
 	
 	public static void main(String[] args) {
 		
-		int arr [] = {8, 6, 2, 5, 1} ;
+		int arr [] = {18, 26, 12, 52, 19} ;
 		
 		int max = 0, currentMax = 0 ;
 		
@@ -21,11 +21,9 @@ public class SecondLargest {
 		for (int i = 0; i < arr.length; i++) {
 			currentMax = arr[i] ;
 			
-			if (currentMax > secondMax && secondMax < max) 
+			if (currentMax > secondMax && currentMax < max) 
 				secondMax = currentMax ;
-			System.out.println(secondMax);
 		}
-		System.out.println(max);
 		System.out.println(secondMax);
 	}
 }
