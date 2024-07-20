@@ -3,8 +3,6 @@ package Stack;
 import java.util.Arrays;
 import java.util.Stack;
 
-import junit.framework.JUnit4TestCaseFacade;
-
 public class Find_Nearst_SmallNumber_Right {
 	
 	public static void main(String[] args) {
