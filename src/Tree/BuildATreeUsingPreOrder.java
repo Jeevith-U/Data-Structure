@@ -15,7 +15,7 @@ public class BuildATreeUsingPreOrder {
 				
 			}
 		}
-		static class BinaryTree{
+		public static class BinaryTree{
 			
 			static int idx = -1 ;
 				
@@ -23,7 +23,7 @@ public class BuildATreeUsingPreOrder {
 				
 				idx++ ;
 				
-				if(idx < nodes.length && idx == -1) return null ;
+				if(idx > nodes.length-1 && idx > -1) return null ;
 				
 				Node node = new Node(nodes[idx]) ;
 				
@@ -43,7 +43,7 @@ public class BuildATreeUsingPreOrder {
 		
 		Node node = tree.buildTree(arr) ;
 		
-		System.out.println(node.data);
+		System.out.println("Head Data : "+node.data);
 		
 		
 	}
