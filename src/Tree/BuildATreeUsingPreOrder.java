@@ -19,6 +19,7 @@ public class BuildATreeUsingPreOrder {
 		static int idx = -1;
 
 		public static Node buildTree(int nodes[]) {
+
 			idx++;
 
 			// Base condition: return null for -1 and out of bounds index

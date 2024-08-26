@@ -22,7 +22,7 @@ public class LevelOrderTraversalOnATree {
 
         var rootNode =BuildATreeUsingPreOrder.BinaryTree.buildTree(arr) ;
 
-        printLevelOrder(rootNode) ;
+        printLevelOrder(null) ;
 
     }
 
@@ -40,7 +40,6 @@ public class LevelOrderTraversalOnATree {
             if(node == null){ // insted of that we can check with -1
                 System.out.println();
                 if (q.isEmpty()) break;
-
                 else q.add(null) ;
             }else {
                 System.out.print(node.data+" ");
