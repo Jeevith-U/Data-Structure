@@ -17,9 +17,9 @@ public class DiameterOfATree {
 
         BuildATreeUsingPreOrder.Node headNode = BuildATreeUsingPreOrder.BinaryTree.buildTree(arr);
 
-        int height = calculateDiameter(headNode) ;
+        int dia = calculateDiameter(headNode) ;
 
-        System.out.println("The total Height is : "+height);
+        System.out.println("The total Diameter is : "+dia);
     }
 
     private static int findHeight(BuildATreeUsingPreOrder.Node headNode) {
