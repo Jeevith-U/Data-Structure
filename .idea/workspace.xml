@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="New Problem has been added to calculate the diameter of a given tree.In O(n) complexity">
+      <change afterPath="$PROJECT_DIR$/src/Tree/SubTreeOfAnotherTree.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jeevith-U"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jeevith-U/Data-Structure.git",
+    "accountId": "905450e7-8b76-4552-9566-6258c8707bad"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2lBQdeVAMFTA4enQ4OuFkaPs8AC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BuildATreeUsingPreOrder.executor": "Run",
+    "Application.CountNodes.executor": "Run",
+    "Application.DiameterOfATree.executor": "Run",
+    "Application.DiameterOfATree2.executor": "Run",
+    "Application.HightOfATree.executor": "Run",
+    "Application.ImplementingTree.executor": "Run",
+    "Application.LevelOrderTraversalOnATree.executor": "Run",
+    "Application.SumOfNode.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tree" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="" />
+      <created>1724651082460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724651082460</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Started to work on Tree Data Structure">
+      <option name="closed" value="true" />
+      <created>1724651220230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724651220230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Completed the Level_Order_Traversal_On_A_Tree">
+      <option name="closed" value="true" />
+      <created>1724670024994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724670024994</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added New Problem to count Number of Nodes in a Given Tree">
+      <option name="closed" value="true" />
+      <created>1724672474519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724672474519</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added New Problem to count sum of values of Nodes in a Given Tree">
+      <option name="closed" value="true" />
+      <created>1724676768334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724676768334</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added New Problem to Height Of a Given Tree">
+      <option name="closed" value="true" />
+      <created>1724676810521</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724676810521</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New Problem has been added to calculate the diameter of a given tree.">
+      <option name="closed" value="true" />
+      <created>1724737630547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724737630547</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New Problem has been added to calculate the diameter of a given tree.In O(n) complexity">
+      <option name="closed" value="true" />
+      <created>1724759416807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724759416807</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started to work on Tree Data Structure" />
+    <MESSAGE value="Completed the Level_Order_Traversal_On_A_Tree" />
+    <MESSAGE value="Added New Problem to count Number of Nodes in a Given Tree" />
+    <MESSAGE value="Added New Problem to count sum of values of Nodes in a Given Tree" />
+    <MESSAGE value="Added New Problem to Height Of a Given Tree" />
+    <MESSAGE value="New Problem has been added to calculate the diameter of a given tree." />
+    <MESSAGE value="New Problem has been added to calculate the diameter of a given tree.In O(n) complexity" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Problem has been added to calculate the diameter of a given tree.In O(n) complexity" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/DiameterOfATree2.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
