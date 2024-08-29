@@ -1,39 +1,42 @@
 package Tree;
 
 public class BuildATreeUsingPreOrder {
-	
-		static class Node {
-			
-			Node left ;
-			Node right ;
-			int data ;
-			
-			public Node(int data) {
-				this.data = data ;
-				this.left = null ;
-				this.right = null ;
-				
-			}
+
+	   public static class Node {
+		Node left;
+		Node right;
+		int data;
+
+		public Node(int data) {
+			this.data = data;
+			this.left = null;
+			this.right = null;
 		}
-		public static class BinaryTree{
-			
-			static int idx = -1 ;
-				
-			public static Node buildTree(int nodes []){
-				
-				idx++ ;
-				
-				if(idx > nodes.length-1 && idx > -1) return null ;
-				
-				Node node = new Node(nodes[idx]) ;
-				
-				node.left = buildTree(nodes) ;
-				
-				node.right = buildTree(nodes) ;
-				
-				return node ;
+	}
+
+	static class BinaryTree {
+
+		static int idx = -1;
+
+		public static Node buildTree(int nodes[]) {
+
+			idx++;
+
+			// Base condition: return null for -1 and out of bounds index
+			if (idx >= nodes.length || nodes[idx] == -1) {
+				return null;
 			}
+
+			// Create the node
+			Node node = new Node(nodes[idx]);
+
+			// Recursively build the left and right subtrees
+			node.left = buildTree(nodes);
+			node.right = buildTree(nodes);
+
+			return node;
 		}
+	}
 
 	public static void main(String[] args) {
 		
