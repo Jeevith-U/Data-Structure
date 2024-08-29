@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Started to work on Binary Search Tree. Written the program to create Binary Search Tree" />
+    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Started to work on Binary Search Tree. Written the program to create Binary Search Tree">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/SearchBSTTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +56,7 @@
     "Application.ImplementingTree.executor": "Run",
     "Application.LevelOrderTraversalOnATree.executor": "Run",
     "Application.PrintBST.executor": "Run",
+    "Application.SearchBSTTree.executor": "Run",
     "Application.SumOfNode.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -161,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724932072642</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Started to work on Binary Search Tree. Written the program to create Binary Search Tree">
+      <option name="closed" value="true" />
+      <created>1724932807118</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724932807118</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
