@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="New Problem has been added to calculate the diameter of a given tree.In O(n) complexity">
-      <change afterPath="$PROJECT_DIR$/src/Tree/SubTreeOfAnotherTree.java" afterDir="false" />
+    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Started to work on Binary Search Tree. Written the program to create Binary Search Tree">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/PrintBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/Notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jeevith-U"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jeevith-U&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jeevith-U/Data-Structure.git",
-    "accountId": "905450e7-8b76-4552-9566-6258c8707bad"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jeevith-U/Data-Structure.git&quot;,
+    &quot;accountId&quot;: &quot;905450e7-8b76-4552-9566-6258c8707bad&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2lBQdeVAMFTA4enQ4OuFkaPs8AC" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,6 +57,7 @@
     "Application.HightOfATree.executor": "Run",
     "Application.ImplementingTree.executor": "Run",
     "Application.LevelOrderTraversalOnATree.executor": "Run",
+    "Application.PrintBST.executor": "Run",
     "Application.SumOfNode.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -130,8 +134,43 @@
       <option name="project" value="LOCAL" />
       <updated>1724759416807</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="how to find out weather the given tree is it a sub-tree of another tree, for that check this out">
+      <option name="closed" value="true" />
+      <created>1724911061091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724911061091</updated>
+    </task>
+    <task id="LOCAL-00009" summary="how to find out weather the given tree is it a sub-tree of another tree, for that check this out">
+      <option name="closed" value="true" />
+      <created>1724911093849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724911093849</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Started to work on Binary Search Tree. Written the program to create Binary Search Tree">
+      <option name="closed" value="true" />
+      <created>1724930880795</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724930880795</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started to work on Tree Data Structure" />
@@ -141,7 +180,9 @@
     <MESSAGE value="Added New Problem to Height Of a Given Tree" />
     <MESSAGE value="New Problem has been added to calculate the diameter of a given tree." />
     <MESSAGE value="New Problem has been added to calculate the diameter of a given tree.In O(n) complexity" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Problem has been added to calculate the diameter of a given tree.In O(n) complexity" />
+    <MESSAGE value="how to find out weather the given tree is it a sub-tree of another tree, for that check this out" />
+    <MESSAGE value="Started to work on Binary Search Tree. Written the program to create Binary Search Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started to work on Binary Search Tree. Written the program to create Binary Search Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

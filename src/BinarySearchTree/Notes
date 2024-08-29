@@ -3,4 +3,6 @@
 - the value of the left node will always smaller than the root node 
 - the value of the right node will always greater than the root node
 - (Note) in the BST the duplicate values wont be present if they does it's a different circumstance 
-   that need to be consider separatelyx 
+   that need to be consider separately
+- if you do in order traversal on BST You will always get a sorted array(Left, NOde, Right)
+- worst time complexity for searching is O(Height) or O(logn)
