@@ -2,7 +2,7 @@ package Tree;
 
 public class BuildATreeUsingPreOrder {
 	
-		private static class Node {
+		static class Node {
 			
 			Node left ;
 			Node right ;
