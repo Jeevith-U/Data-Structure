@@ -39,14 +39,15 @@ public class BuildATreeUsingPreOrder {
 	}
 
 	public static void main(String[] args) {
-
-		int arr[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
-
-		BinaryTree tree = new BinaryTree();
-
-		Node root = tree.buildTree(arr);
-
-		// Printing the root data to verify the tree is built
-		System.out.println("Root node data: " + root.data);
+		
+		int arr [] = {1, 2, 4, -4, -1, 5, -1, -1, 3, -3, 6, -1, -1} ;
+		
+		BinaryTree tree = new BinaryTree() ;
+		
+		Node node = tree.buildTree(arr) ;
+		
+		System.out.println("Head Data : "+node.data);
+		
+		
 	}
 }

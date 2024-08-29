@@ -2,6 +2,9 @@ package Algos;
 
 import java.util.Arrays;
 
+/*
+ * Time complexity is O(nlogn)
+ */
 public class MergeSort {
 	
 	public static void main(String[] args) {
