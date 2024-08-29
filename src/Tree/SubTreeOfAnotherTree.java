@@ -2,7 +2,7 @@ package Tree;
 
 /*
   - Check this program https://leetcode.com/problems/subtree-of-another-tree/
- */
+
 
 public class SubTreeOfAnotherTree {
 
@@ -54,7 +54,7 @@ public class SubTreeOfAnotherTree {
         return isSameTree(p.right,q.right) && isSameTree(p.left,q.left);
     }
 }
-     */
+     
 
         public static boolean isIdentical(TreeNode root, TreeNode subRoot){
 
@@ -82,3 +82,4 @@ public class SubTreeOfAnotherTree {
 
     }
 }
+*/
