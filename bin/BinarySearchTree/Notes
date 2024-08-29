@@ -1,0 +1,6 @@
+- Binary Tree means a tree which will have only two node at max
+- It may have only one on any side of null on the both side
+- the value of the left node will always smaller than the root node 
+- the value of the right node will always greater than the root node
+- (Note) in the BST the duplicate values wont be present if they does it's a different circumstance 
+   that need to be consider separatelyx 
