@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Started to work on Binary Search Tree. Written the program to create Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/SearchBSTTree.java" afterDir="false" />
+    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Program to check How to find A Key in BST">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/DeleteNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/SearchBSTTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/SearchBSTTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
   "keyToString": {
     "Application.BuildATreeUsingPreOrder.executor": "Run",
     "Application.CountNodes.executor": "Run",
+    "Application.DeleteNode.executor": "Run",
     "Application.DiameterOfATree.executor": "Run",
     "Application.DiameterOfATree2.executor": "Run",
     "Application.HightOfATree.executor": "Run",
@@ -173,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724932807118</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Program to check How to find A Key in BST">
+      <option name="closed" value="true" />
+      <created>1724933772265</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724933772265</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +207,8 @@
     <MESSAGE value="New Problem has been added to calculate the diameter of a given tree.In O(n) complexity" />
     <MESSAGE value="how to find out weather the given tree is it a sub-tree of another tree, for that check this out" />
     <MESSAGE value="Started to work on Binary Search Tree. Written the program to create Binary Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started to work on Binary Search Tree. Written the program to create Binary Search Tree" />
+    <MESSAGE value="Program to check How to find A Key in BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Program to check How to find A Key in BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

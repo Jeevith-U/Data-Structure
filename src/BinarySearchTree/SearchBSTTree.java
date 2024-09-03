@@ -12,7 +12,7 @@ public class SearchBSTTree {
             root = BST.createBST(root, arr[i]) ;
         }
 
-        boolean flag = findKey(root, 61);
+        boolean flag = findKey(root, 14);
 
         if (flag) System.out.println("The Element is present in the Tree");
 
