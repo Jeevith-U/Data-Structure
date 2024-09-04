@@ -11,6 +11,7 @@ package BinarySearchTree;
     - we will get successor node on two conditions one is at leaf node another one to the right side of the current node
 
  */
+
 public class DeleteNode {
 
     public static void main(String[] args) {
@@ -23,47 +24,59 @@ public class DeleteNode {
             root = BST.createBST(root, arr[i]);
         }
 
-        inOrderTraversal(root) ;
+        inOrderTraversal(root);
+        System.out.println();
 
-        deleteNode(root, 5) ;
+        root = deleteNode(root, 5);
 
-        inOrderTraversal(root) ;
+        inOrderTraversal(root);
     }
 
-    public static BST.Node deleteNode(BST.Node root, int val){
+    public static BST.Node deleteNode(BST.Node root, int val) {
+        if (root == null) return null;
 
-        if(val < root.data)  root.left = deleteNode(root.left, val) ;
+        // Recur down the tree
+        if (val < root.data)  root.left = deleteNode(root.left, val);
 
-        else root.right = deleteNode(root.right, val) ;
+        else if (val > root.data) root.right = deleteNode(root.right, val);
+         else { // root.data == val, this is the node to be deleted
 
-        else{ // root.data == val
+            // Case 1: Node has no children (leaf node)
+            if (root.left == null && root.right == null) return null;
 
-            // case -1 if it is a leaf node
+            // Case 2: Node has only one child
+            if (root.left == null) return root.right;
 
-            if(root.left == null && root.right == null ) return null ;
-
-            // case - 2 if we have only one child
-            if(root.left == null) return root.right ;
-
-            if(root.right == null) return root.left ;
-
-            // case - 3 if it has 2 children
-
-            BST.Node inordersuccssor = inOrderTraversal(root.right) ;
-            root.data = inordersuccssor.data ;
-           root.right =  deleteNode(root.right, inordersuccssor.data) ;
+            else if (root.right == null) return root.left;
 
 
+            // Case 3: Node has two children
+            // Find the in-order successor (smallest in the right subtree)
+            BST.Node inOrderSuccessor = findInOrderSuccessor(root.right);
+
+            // Copy the in-order successor's content to this node
+            root.data = inOrderSuccessor.data;
+
+            // Delete the in-order successor
+            root.right = deleteNode(root.right, inOrderSuccessor.data);
         }
+        return root;
     }
 
-    public static  BST.Node inOrderTraversal(BST.Node root){
-
-        while (root != null){
-
-            root = root.left ;
+    // Method to find the in-order successor (smallest node in the right subtree)
+    public static BST.Node findInOrderSuccessor(BST.Node root) {
+        while (root.left != null) {
+            root = root.left;
         }
+        return root;
+    }
 
-        return root ;
+    // In-order traversal of the BST
+    public static void inOrderTraversal(BST.Node root) {
+        if (root != null) {
+            inOrderTraversal(root.left);
+            System.out.print(root.data + " ");
+            inOrderTraversal(root.right);
+        }
     }
 }
