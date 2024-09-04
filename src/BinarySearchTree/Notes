@@ -6,3 +6,10 @@
    that need to be consider separately
 - if you do in order traversal on BST You will always get a sorted array(Left, NOde, Right)
 - worst time complexity for searching is O(Height) or O(logn)
+
+--- There are 5 different types of Binary Tree
+  - Full Binary Tree -> it has 0 or 2 children
+  - Complete Binary tree -> all the node should have two children except leaf node or u can have child as left as possible
+  - perfect binary tree -> all the leaf are at same level
+  - Balanced binary tree -> the height f the tree should be mlog n n -> nodes  ex. 8 node log(8) -> 3 Height should be 3
+  - degenerate tree -> tree moving in one particular direction ex liinked List
