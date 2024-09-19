@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Program to print all the paths from root to leaf">
+    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Added the code for the InOrder Using the Iterative method">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/IterativePreOrderUsing2stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree/Notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +46,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BuildATreeUsingPreOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountNodes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteNode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiameterOfATree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiameterOfATree2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HightOfATree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImplementingTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LevelOrderTraversalOnATree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintBST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintRange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Root2LeafPath.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchBSTTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfNode.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BuildATreeUsingPreOrder.executor": "Run",
+    "Application.CountNodes.executor": "Run",
+    "Application.DeleteNode.executor": "Run",
+    "Application.DiameterOfATree.executor": "Run",
+    "Application.DiameterOfATree2.executor": "Run",
+    "Application.HightOfATree.executor": "Run",
+    "Application.ImplementingTree.executor": "Run",
+    "Application.IterativeInOrder.executor": "Run",
+    "Application.IterativePreOrder.executor": "Run",
+    "Application.IterativePreOrderUsing2stack.executor": "Run",
+    "Application.LevelOrderTraversalOnATree.executor": "Run",
+    "Application.PrintBST.executor": "Run",
+    "Application.PrintRange.executor": "Run",
+    "Application.Root2LeafPath.executor": "Run",
+    "Application.SearchBSTTree.executor": "Run",
+    "Application.SumOfNode.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BinarySearchTree" />
       <recent name="Tree" />
     </key>
   </component>
@@ -216,7 +220,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725431010453</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated the notes od BST">
+      <option name="closed" value="true" />
+      <created>1725452142924</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725452142924</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added the code for the preOrder Using the Iterative method">
+      <option name="closed" value="true" />
+      <created>1726037831511</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726037831511</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added the code for the InOrder Using the Iterative method">
+      <option name="closed" value="true" />
+      <created>1726139169677</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726139169677</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +271,10 @@
     <MESSAGE value="Program to check How to find A Key in BST" />
     <MESSAGE value="Program to delete a node in BST" />
     <MESSAGE value="Program to print all the paths from root to leaf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Program to print all the paths from root to leaf" />
+    <MESSAGE value="Updated the notes od BST" />
+    <MESSAGE value="Added the code for the preOrder Using the Iterative method" />
+    <MESSAGE value="Added the code for the InOrder Using the Iterative method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the code for the InOrder Using the Iterative method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
