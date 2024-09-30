@@ -1,0 +1,19 @@
+-- Map is An interface and HashTable is a class
+ - HashTable introduced in v1 but hashmap was introduced in v1.2
+ - HashTable is thread safe but hashmap is not thread safe
+ - HashTable is slow but hashmap fast
+
+-- Entry is an Interface present inside map
+ - entrySet() will convert individual entry(key value pair) to one entry
+
+-- Hashing
+ - collision --> After Hashing if two key gets same hash value we collision
+ - If input is a Number n you can do n % m
+ - If input is a string what we can do is travers over the string take the ASCII Value of it power it by a number and add them % m
+   this is called as " Weighted Sum "
+ - If object is there we can do the same for Any one of the attribute
+
+-- Hash Table
+ - Hash Table is Just A Array of Node
+ - Node class has key, value, Node, hash
+ - if you have only one node in an Array then the search complexity is O(1) or else it will be O( 1 + length of Node )
