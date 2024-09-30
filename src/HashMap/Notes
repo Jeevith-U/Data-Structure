@@ -17,3 +17,5 @@
  - Hash Table is Just A Array of Node
  - Node class has key, value, Node, hash
  - if you have only one node in an Array then the search complexity is O(1) or else it will be O( 1 + length of Node )
+ - If the Node length increases the time and space also increases so in java 8 They have done the Following
+ - After passing the thresh hold point w'll convert nodes to a self balancing tree
