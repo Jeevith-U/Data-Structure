@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Added the New Problems">
-      <change afterPath="$PROJECT_DIR$/src/Algos/MergeSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/Notes.txt" afterDir="false" />
+    <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Started with Heap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -389,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737022946715</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Started with Heap">
+      <option name="closed" value="true" />
+      <created>1737693383897</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737693383897</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,7 +428,8 @@
     <MESSAGE value="added new problem on zigzag iteration of a tree" />
     <MESSAGE value="Added a Notes for Hashing Technique And how it works" />
     <MESSAGE value="Added the New Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the New Problems" />
+    <MESSAGE value="Started with Heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started with Heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
