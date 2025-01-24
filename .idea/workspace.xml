@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd3eb420-91fb-4529-b021-c3e40387d6c8" name="Changes" comment="Added the New Problems">
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/Algos/QuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/Array/KadensAlgorithemForNegativeArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/BST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/DeleteNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/IterativeInOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/IterativePreOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/IterativePreOrderUsing2stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/PrintBST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/PrintRange.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/Root2LeafPath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/SearchBSTTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/BinarySearchTree/Zig_ZagTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/List/FindLexicalOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure/Tree/PreOrderTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/AdvanceBinarySearchInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Numbers/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Numbers/ReverseNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Find_Common_Prefix5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/MergeSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structure/Array/StockBuyAndSell2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structure/Array/StockBuyAndSell2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/AllocateMinimumPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/AllocateMinimumPages.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +36,9 @@
     &quot;accountId&quot;: &quot;905450e7-8b76-4552-9566-6258c8707bad&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Algos/MergeSort.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -65,42 +50,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdvanceBinarySearchInRotatedArray.executor": "Run",
-    "Application.AllocateMinimumPages.executor": "Run",
-    "Application.Boyer_Moore_Majority_Vote_Algorithm.executor": "Run",
-    "Application.Boyer_Moore_Majority_Vote_Algorithm2.executor": "Run",
-    "Application.BuildATreeUsingPreOrder.executor": "Run",
-    "Application.CountNodes.executor": "Run",
-    "Application.DeleteNode.executor": "Run",
-    "Application.DiameterOfATree.executor": "Run",
-    "Application.DiameterOfATree2.executor": "Run",
-    "Application.Find_Common_Prefix.executor": "Run",
-    "Application.Find_Common_Prefix2.executor": "Run",
-    "Application.Find_Common_Prefix3.executor": "Run",
-    "Application.Find_Common_Prefix5.executor": "Run",
-    "Application.HightOfATree.executor": "Run",
-    "Application.ImplementingTree.executor": "Run",
-    "Application.IterativeInOrder.executor": "Run",
-    "Application.IterativePreOrder.executor": "Run",
-    "Application.IterativePreOrderUsing2stack.executor": "Run",
-    "Application.KadensAlgorithemForNegativeArray.executor": "Run",
-    "Application.LevelOrderTraversalOnATree.executor": "Run",
-    "Application.PrintBST.executor": "Run",
-    "Application.PrintRange.executor": "Run",
-    "Application.ReverseNumber.executor": "Run",
-    "Application.ReverseNumber2.executor": "Run",
-    "Application.Root2LeafPath.executor": "Run",
-    "Application.SearchBSTTree.executor": "Run",
-    "Application.SumOfNode.executor": "Run",
-    "Application.Zig_ZagTraversal.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ravi M/Documents/GitHub/Spring-security"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdvanceBinarySearchInRotatedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AllocateMinimumPages.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Boyer_Moore_Majority_Vote_Algorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Boyer_Moore_Majority_Vote_Algorithm2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuildATreeUsingPreOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountNodes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiameterOfATree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiameterOfATree2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Find_Common_Prefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Find_Common_Prefix2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Find_Common_Prefix3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Find_Common_Prefix5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HightOfATree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplementingTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IterativeInOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IterativePreOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IterativePreOrderUsing2stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KadensAlgorithemForNegativeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LevelOrderTraversalOnATree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintBST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseNumber2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Root2LeafPath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchBSTTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zig_ZagTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ravi M/Documents/GitHub/Spring-security&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Numbers" />
@@ -110,20 +96,7 @@
       <recent name="Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseNumber2">
-    <configuration name="Find_Common_Prefix2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.Find_Common_Prefix2" />
-      <module name="Data-Structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="Find_Common_Prefix3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.Find_Common_Prefix3" />
       <module name="Data-Structure" />
@@ -143,6 +116,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.MergeSort" />
+      <module name="Data-Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.ReverseNumber2" />
         <item itemvalue="Application.ReverseNumber" />
         <item itemvalue="Application.Find_Common_Prefix5" />
         <item itemvalue="Application.Find_Common_Prefix3" />
-        <item itemvalue="Application.Find_Common_Prefix2" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735532258576</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added the New Problems">
+      <option name="closed" value="true" />
+      <created>1737022946715</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737022946715</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

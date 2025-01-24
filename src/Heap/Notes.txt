@@ -1,0 +1,16 @@
+
+Heap
+    - Heap is a complete binary tree that satisfies a heap's property
+
+    - Heap property
+        -- Max heap the children value will be lesser than the parent value
+        -- Min Heap here children value will be higher than the parent value
+
+    - Node
+        -- Node -> i
+
+        parent(i) -> (i/2)
+
+        leftChild -> 2 * i
+
+        rightChild -> 2 * i + 1
