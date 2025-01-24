@@ -1,6 +1,7 @@
 
 Heap
     - Heap is a complete binary tree that satisfies a heap's property
+    - We store the Heap in the form of Array
 
     - Heap property
         -- Max heap the children value will be lesser than the parent value
@@ -14,3 +15,5 @@ Heap
         leftChild -> 2 * i
 
         rightChild -> 2 * i + 1
+
+
