@@ -15,13 +15,13 @@ public class ConvertJsonToObject {
 		
 //		System.out.println(s.trim());
 		
-		s = s.replace("{", "").replace("}", "").trim();
+		s = s.replace("{", "").replace("}", "");
 		
 		String[] arr = s.split("[: ]+");
 		
 		System.out.println(Arrays.toString(arr));
 		
-		for(int i = 0 ; i < arr.length ; i++) {
+		for(int i = 1 ; i < arr.length ; i = i+2) {
 			
 			System.out.println(arr[i]);
 		}
