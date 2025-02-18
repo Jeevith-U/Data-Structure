@@ -10,6 +10,7 @@ public class longest_substring_without_repeating_characters3_Abilash_Sir {
 		int maxcount = 0, count = 0, index = 0;
 
 		LinkedHashSet<Character> h = new LinkedHashSet<Character>();
+		
 		for (int i = 0; i < s.length(); i++) {
 
 			if (h.add(s.charAt(i))) {

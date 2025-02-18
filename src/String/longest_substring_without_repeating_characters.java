@@ -4,7 +4,7 @@ public class longest_substring_without_repeating_characters {
 
 	public static void main(String[] args) {
 
-		String s = "pwwkew";
+		String s = "abcabcbb";
 
 		System.out.println(solution(s));
 		
@@ -14,29 +14,23 @@ public class longest_substring_without_repeating_characters {
 
 		String maxsub = "", curSub = "";
 
-		if (s == null || s.length() == 1)
-			return 1;
-
-		for (int i = 0; i < s.length()- 1; i++) {
-
-			if (i == s.length() - 2 && maxsub.length() == 0)
-				maxsub += s.charAt(i);
-
-			if ((s.charAt(i) != s.charAt(i + 1)) && i != s.length() - 1) {
-				curSub += s.charAt(i);
-			}
-
-			if (curSub.length() > maxsub.length()) {
-				maxsub = curSub;
-				curSub = "";
-			} 
+		for (int i = 0; i < s.length(); i++) {
 			
-			System.out.println(maxsub);
-		}
-		
-//		if(s.charAt(s.charAt(s.length()-2)) != s.charAt(s.length()-1)) maxsub += s.charAt(s.length()-1) ;
-		
+			curSub += s.charAt(i) ;
+			
+			for (int j = i+1; j < s.length(); j++) {
+				
+				if(s.charAt(i) != s.charAt(j) && s.charAt(j) != s.charAt(j-1)) curSub += s.charAt(j) ;
+				
+				else {
+					
+					if(curSub.length() > maxsub.length()) maxsub = curSub ;
+					curSub = "" ;
+					break ;
+				}
+			}
+			System.out.println(curSub +" : curSub & maxSub : "+maxsub);
+		}	
 		return maxsub.length() ;
-		
 	}
 }

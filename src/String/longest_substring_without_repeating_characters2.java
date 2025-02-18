@@ -4,7 +4,7 @@ public class longest_substring_without_repeating_characters2 {
 	
 	public static void main(String[] args) {
 		
-		String str = "pwwkew" ;
+		String str = "bbbbb" ;
 		
 		String maxsub = "", curSub = ""  ;
 		
@@ -19,8 +19,6 @@ public class longest_substring_without_repeating_characters2 {
 				maxsub = curSub ;
 				curSub = "" ;
 			}
-			
-			System.out.println(maxsub);
 		}
 		
 		System.out.println(maxsub.length());
