@@ -44,6 +44,10 @@ public class CustomeHeap {
 		System.out.println("After Heap Sort : "+Arrays.toString(arr));
 	}
 
+	/**
+	 * The leaf node are already balanced or heapyfied
+	 * 
+	 */
 	public static int[] heap(int[] arr) {
 		
 		for (int i = (arr.length/2)-1 ; i >= 0; i--) {
