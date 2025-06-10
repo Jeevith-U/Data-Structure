@@ -8,7 +8,7 @@ import java.util.Arrays;
  * we are returning the head node or any form of node w'll return array 
  */
 
-public class CustomeHeap {
+public class Custome_Min_Heap {
 	
 	public static void createHeap(int arr [], int length, int idx) {
 		
@@ -18,10 +18,10 @@ public class CustomeHeap {
 
 		int right = 2 * idx + 1;
 
-		if (left < length && arr[left] > arr[largest])
+		if (left < length && arr[left] < arr[largest])
 			largest = left;
 
-		if (right < length && arr[right] > arr[largest])
+		if (right < length && arr[right] < arr[largest])
 			largest = right;
 
 		if (largest != idx) {
