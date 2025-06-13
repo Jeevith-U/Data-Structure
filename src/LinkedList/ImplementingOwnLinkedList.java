@@ -8,7 +8,7 @@ public class ImplementingOwnLinkedList {
 		
 		Node node = new Node() ;
 		node.data = n ;
-		node.node = null ;
+		node.next = null ;
 		
 		if(head == null)
 			head = node ;
@@ -16,11 +16,11 @@ public class ImplementingOwnLinkedList {
 			
 			Node temp = head ;
 			
-			while(temp.node != null) {
+			while(temp.next != null) {
 			
-				temp = temp.node ;
+				temp = temp.next ;
 			}
-			temp.node = node ;
+			temp.next = node ;
 		}
 	}
 	
@@ -28,9 +28,9 @@ public class ImplementingOwnLinkedList {
 		
 		Node node = head ;
 		
-		while(node.node != null) {
+		while(node.next != null) {
 			System.out.println(node.data);
-			node = node.node ;
+			node = node.next ;
 		}
 		System.out.println(node.data);
 	}
@@ -45,18 +45,18 @@ public class ImplementingOwnLinkedList {
 		
 		int count = 0 ;
 		
-		while(temp.node != null) {
+		while(temp.next != null) {
 			
-			temp = temp.node ;
+			temp = temp.next ;
 			count++ ;
 			
 			if(count == position-2) {
 				
-				Node nextNode = temp.node ;
+				Node nextNode = temp.next ;
 				
-				temp.node = node ;
+				temp.next = node ;
 				
-				node.node = nextNode;
+				node.next = nextNode;
 				
 			}
 		}
@@ -68,14 +68,15 @@ public class ImplementingOwnLinkedList {
 		
 		Node previous = null ;
 		
-		while(currentNode.node != null) {
+		while(currentNode!= null) {
 			
-			Node temp = currentNode.node ;
+			Node temp = currentNode.next ;
 			
-			currentNode.node = previous ;
+			currentNode.next = previous ;
 			previous = currentNode ;
 			currentNode = temp ;
-			
 		}
+		
+		head = previous ;
 	}
 }
