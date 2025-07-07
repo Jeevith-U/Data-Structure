@@ -1,8 +1,8 @@
 package LinkedList;
 
-public class Node {
+public class Node <T> {
 	
-	int data ;
+	T data ;
 	
 	Node next ;
 }

@@ -1,12 +1,13 @@
 package LinkedList;
 
-public class ImplementingOwnLinkedList {
+public class ImplementingOwnLinkedList<T> {
 	
 	Node head ;
 	
-	public void add(int n) {
+	public void add(T n) {
 		
 		Node node = new Node() ;
+		
 		node.data = n ;
 		node.next = null ;
 		
