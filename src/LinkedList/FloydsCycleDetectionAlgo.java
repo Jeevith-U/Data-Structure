@@ -14,6 +14,9 @@ public class FloydsCycleDetectionAlgo {
 		detectTheCycleStart(l.head) ;
 	}
 
+	/**
+	 * To find the starting point of loop
+	 */
 	public static Node detectTheCycleStart(Node head) {
 		
 		Node meet = detectCycle(head) ;
@@ -28,6 +31,9 @@ public class FloydsCycleDetectionAlgo {
 		
 	}
 
+	/**
+	 * to find the whether do we have a cycle of not
+	 */
 	public static Node detectCycle(Node head) {
 		
 		Node fast = head ;
