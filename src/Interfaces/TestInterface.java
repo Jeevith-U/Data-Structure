@@ -12,6 +12,10 @@ interface A{
 	default void check() {
 		System.out.println("The Check Method Of A");
 	}
+	
+	private void testPrivatemethod() {
+		System.out.println("Some implementation");
+	}
 }
 
 
