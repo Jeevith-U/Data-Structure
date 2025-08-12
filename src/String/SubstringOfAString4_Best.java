@@ -15,7 +15,6 @@ public class SubstringOfAString4_Best {
 	}
 
 	public static int findSubString(String mainStr, String substr) {
-
 		int ml = mainStr.length();
 
 		int sl = substr.length();
