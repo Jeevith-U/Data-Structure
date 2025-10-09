@@ -10,7 +10,8 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class CharacterFrequency {
-    public static void main(String[] args) {
+   
+	public static void main(String[] args) {
         String input = "infinity";
 
         Map<Character, Long> frequencyMap = input.chars()
